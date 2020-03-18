@@ -1,4 +1,4 @@
-# conversation-label-exchange-format
+# Conversation Label Exchange Format
 A proposed format to label a conversation corpus for the purpose of training a conversational voice or text bot
 
 The objective of this standard is to:
