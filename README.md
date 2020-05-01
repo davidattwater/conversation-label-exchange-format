@@ -5,6 +5,7 @@ The objective of this standard is to:
 1. provide a specification that can be used to label a conversation corpus that includes features useful to train a chat or voice bot including features such as speech acts, dialog states, training utterances, and entities
 2. provide a standard code framework that makes it easy to a. output a labeled conversation corpus that contains useful data for bot training and b. query a labeled corpus to extract specific data from a labeled corpus c. import features from a labeled corpus into a chat or voice bot
 3. encourage collaboration and participation from the community including bot developers, data providers, data scientists, machine learning engineers, and end users
+4. promote the adoption, sharing and re-use of standards-based language resources to benefit the whole chat or voice bot community 
 
 # Guiding Principles
 1. the standard shall be language and bot agnostic
@@ -12,10 +13,11 @@ The objective of this standard is to:
 3. The standard shall be flexible and extensible; meaning that every label is optional, and any new labels can be easily added
 4. The standard shall be developer friendly: well documented, easy to use, with code frameworks in common programming languages
 5. The standard shall have utility in mind: only labels that are directly useful to business analysts, data scientists, designers, and developers should be considered
+6. the standard shall be applicable to written and spoken conversation
 
 # Types of conversation labels (preliminary)
-1. dialog acts based on a theory of conversation (such as DAMSL)
-2. semantic meaning of utterances that can be used to train NLU (AMR)
+1. dialog acts based on a theory of conversation (such as DAMSL or DiaML)
+2. semantic meaning of utterances that can be used to train NLU (such as AMR)
 3. dialogue system labels that identify features in a conversation corpus that can be used as bot training data (i.e. intents, intent training utterances, dialog states, bot utterancs)
 
 # Useful resources
